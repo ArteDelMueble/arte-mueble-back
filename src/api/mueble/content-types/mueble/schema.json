@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "muebles",
+  "info": {
+    "singularName": "mueble",
+    "pluralName": "muebles",
+    "displayName": "mueble"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imgen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "restauraciones",
+  "info": {
+    "singularName": "restauracion",
+    "pluralName": "restauraciones",
+    "displayName": "Restauracion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion_antes": {
+      "type": "richtext",
+      "required": true
+    },
+    "descripcion_despues": {
+      "type": "richtext",
+      "required": true
+    },
+    "imagen_antes": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imagen_despues": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
